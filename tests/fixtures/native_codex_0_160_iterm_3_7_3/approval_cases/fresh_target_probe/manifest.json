@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source": "captured",
+  "redacted": true,
+  "terminal_program": "native_codex",
+  "codex_version": "0.160.0",
+  "iterm_version": "3.7.3",
+  "sdk_version": "2.25",
+  "codex_sha256": "5383ef71dd1bd8d2f3658c04a219e2cf165c7969aebd0cceced1bc9f0f68877f",
+  "profile_revision": "codex-local-v1.1",
+  "provider_source": "native_manual_approval_prompt",
+  "automatic_supported": false,
+  "approval_state": "pending_at_capture",
+  "approval_reviewer": "user",
+  "approval_decisions": 0,
+  "target_state": "new",
+  "source_artifact": "native-approval-current-tab6.jsonl",
+  "source_frame_hash": "590de4b8346a0e7e58173150373093ca01ceddc4098ce87e3b8d196b23aca0b3",
+  "redaction_method": "equal-length X mask for absolute target path; transient IDs and timestamps removed",
+  "samples": [
+    {
+      "name": "workspace_write_approval_pending",
+      "frame_hash": "f5e27e02f1331c3fce8a00b8755790a541d2b02cae36068e7e9392bc38b2a693"
+    }
+  ]
+}

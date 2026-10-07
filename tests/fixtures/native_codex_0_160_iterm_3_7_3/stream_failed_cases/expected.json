@@ -1,0 +1,10 @@
+[
+  {
+    "ui_state": "READY_ERROR",
+    "composer_state": "PLACEHOLDER",
+    "category": "CONNECTION_TRANSIENT",
+    "ready": true,
+    "normal_completion": false,
+    "blockers": []
+  }
+]

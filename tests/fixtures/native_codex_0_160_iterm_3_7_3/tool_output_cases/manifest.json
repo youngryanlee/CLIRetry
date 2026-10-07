@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source": "captured",
+  "redacted": true,
+  "terminal_program": "native_codex",
+  "codex_version": "0.160.0",
+  "iterm_version": "3.7.3",
+  "sdk_version": "2.25",
+  "codex_sha256": "5383ef71dd1bd8d2f3658c04a219e2cf165c7969aebd0cceced1bc9f0f68877f",
+  "profile_revision": "codex-local-v1.1",
+  "provider_source": "local_loopback_shell_tool_fixture",
+  "automatic_supported": false,
+  "auto_attempts": 0,
+  "input_calls": 0,
+  "keyboard_events": 0,
+  "provider_requests": 3,
+  "tool_output_requests": 1,
+  "samples": [
+    {
+      "name": "tool_output_with_transient_error_wording",
+      "source_artifact": "post-upgrade-native-tool-output-2",
+      "frame_hash": "6875a2e59d8cd0f81a182c837dc2de5b417a21182fae477052b69b73fdb8b26d"
+    }
+  ],
+  "redaction_method": "iTerm session IDs, run timestamps, and local home paths anonymized; path masks preserve terminal width"
+}

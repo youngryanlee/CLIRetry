@@ -1,0 +1,13 @@
+[
+  {
+    "ui_state": "UNKNOWN",
+    "composer_state": "UNKNOWN",
+    "blockers": [
+      "GEOMETRY_UNSUPPORTED"
+    ],
+    "category": "",
+    "ready": false,
+    "approval_marker_visible": true,
+    "approval_prompt_visible": true
+  }
+]

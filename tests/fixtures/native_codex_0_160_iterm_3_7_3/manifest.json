@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "source": "captured",
+  "redacted": true,
+  "terminal_program": "native_codex",
+  "provider_source": "none_no_task_submitted",
+  "codex_version": "0.160.0",
+  "iterm_version": "3.7.3",
+  "sdk_version": "2.25",
+  "codex_sha256": "5383ef71dd1bd8d2f3658c04a219e2cf165c7969aebd0cceced1bc9f0f68877f",
+  "profile_revision": "codex-local-v1.1",
+  "normalization": "iTerm2 absolute cursor converted using returned buffer range",
+  "style_available": true,
+  "automatic_supported": false,
+  "input_action": {
+    "text": "/",
+    "input_calls": 1,
+    "enter_sent": false,
+    "physical_keyboard_events": 0
+  },
+  "samples": [
+    {
+      "name": "startup_not_ready",
+      "frame_hash": "d2495cc00d62eb4faa77b79db45240f0d7534517f27fd90b4825c1eb6b779626"
+    },
+    {
+      "name": "stable_idle_before_slash_1",
+      "frame_hash": "b6ff7d39c4e00177c0fe9dd4453549b4074e54baccedc33f6e5a75e91d117298"
+    },
+    {
+      "name": "stable_idle_before_slash_2",
+      "frame_hash": "b6ff7d39c4e00177c0fe9dd4453549b4074e54baccedc33f6e5a75e91d117298"
+    },
+    {
+      "name": "slash_menu_open_no_enter",
+      "frame_hash": "671dd7b952b672be122adb14e76867bbb988923e9ff598bd7900b8475fbea6f4"
+    }
+  ],
+  "redaction_method": "iTerm session IDs, run timestamps, and local home paths anonymized; path masks preserve terminal width"
+}

@@ -1,0 +1,9 @@
+{"at": 0, "event": "frame", "fixture": "idle"}
+{"at": 2, "event": "frame", "fixture": "idle"}
+{"at": 4, "event": "frame", "fixture": "busy"}
+{"at": 8, "event": "frame", "fixture": "capacity"}
+{"at": 14, "event": "frame", "fixture": "capacity"}
+{"at": 24, "event": "frame", "fixture": "capacity"}
+{"at": 34, "event": "frame", "fixture": "capacity"}
+{"at": 38, "event": "frame", "fixture": "capacity"}
+{"at": 40, "event": "frame", "fixture": "capacity"}

@@ -1,0 +1,25 @@
+[
+  {
+    "ui_state": "UNKNOWN",
+    "composer_state": "UNKNOWN",
+    "blocker": "PROFILE_MISMATCH",
+    "ready": false
+  },
+  {
+    "ui_state": "IDLE",
+    "composer_state": "PLACEHOLDER",
+    "ready": false
+  },
+  {
+    "ui_state": "IDLE",
+    "composer_state": "PLACEHOLDER",
+    "ready": false
+  },
+  {
+    "ui_state": "MENU",
+    "composer_state": "USER_TEXT",
+    "blocker": "MENU_PRESENT",
+    "composer_text": "/",
+    "ready": false
+  }
+]

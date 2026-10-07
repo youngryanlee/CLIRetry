@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "source": "captured",
+  "redacted": true,
+  "terminal_program": "native_codex",
+  "codex_version": "0.160.0",
+  "iterm_version": "3.7.3",
+  "sdk_version": "2.25",
+  "codex_sha256": "5383ef71dd1bd8d2f3658c04a219e2cf165c7969aebd0cceced1bc9f0f68877f",
+  "profile_revision": "codex-local-v1.1",
+  "provider_source": "local_loopback_success_sse",
+  "automatic_supported": false,
+  "input_calls": 0,
+  "auto_attempts": 0,
+  "samples": [
+    {
+      "name": "normal_completion",
+      "source_artifact": "post-upgrade-native-auto-complete-1",
+      "provider_source": "local_simulated_success_sse",
+      "provider_requests": 2,
+      "auto_completion_stable_s": 12.0,
+      "frame_hash": "c1d6eeceadc8b7d56ca3705728dca5ba7ac8d8ea5affe8577daa75559a3f5c2d"
+    },
+    {
+      "name": "quoted_error_completion",
+      "source_artifact": "post-upgrade-native-auto-quoted-error-1",
+      "provider_source": "local_simulated_success_sse",
+      "provider_requests": 2,
+      "auto_completion_stable_s": 12.0,
+      "frame_hash": "6dfcda8b5463cfb11ff46894980b6adfd1b9c5f3465772f12579496504d17bef"
+    }
+  ],
+  "redaction_method": "iTerm session IDs, run timestamps, and local home paths anonymized; path masks preserve terminal width"
+}

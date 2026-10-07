@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "source": "captured",
+  "redacted": true,
+  "terminal_program": "native_codex",
+  "provider_source": "local_simulated_503",
+  "codex_version": "0.156.0",
+  "iterm_version": "3.4.23",
+  "sdk_version": "2.25",
+  "codex_sha256": "937b80b2bc2e8d0de6672ce98043d514b74dd53db7491e9771de02c091d924f9",
+  "normalization": "iTerm2 absolute cursor converted using returned buffer range",
+  "style_available": false,
+  "automatic_supported": false,
+  "samples": [
+    {
+      "name": "native_error_placeholder_without_style",
+      "frame_hash": "b1b0decedd035604606cd9dba0f7826f0f9b242a533e181e4300662416ee724f"
+    },
+    {
+      "name": "native_typed_continue",
+      "frame_hash": "3c28650c7ce75ece10f343ab21839caf931f59d12c09aed4aac11a22e2a72824"
+    },
+    {
+      "name": "native_refailed_placeholder",
+      "frame_hash": "06e216fc7d29f2f99938fe247c540eae6fc1779607e931d7d6054ae5c6673dfc"
+    }
+  ],
+  "redaction_method": "iTerm session IDs, run timestamps, and local home paths anonymized; path masks preserve terminal width"
+}

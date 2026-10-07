@@ -1,0 +1,42 @@
+schema_version = 1
+
+[daemon]
+max_sessions = 4
+poll_interval_s = 2.0
+api_timeout_s = 2.0
+process_check_timeout_s = 1.0
+state_dir = "~/Library/Application Support/CLIRetry"
+
+[recovery]
+prompt = "继续"
+stable_error_s = 6.0
+builtin_retry_grace_s = 10.0
+backoff_base_s = 30.0
+backoff_multiplier = 2.0
+backoff_cap_s = 900.0
+jitter_fraction = 0.2
+global_min_attempt_gap_s = 15.0
+max_attempts_per_chain = 12
+max_chain_elapsed_s = 7200
+max_attempts_per_session_hour = 30
+max_attempts_per_run = 100
+max_enabled_duration_s = 43200
+text_min_settle_s = 0.5
+text_confirm_timeout_s = 5.0
+recovery_ack_timeout_s = 30.0
+sleep_gap_threshold_s = 15.0
+
+[logging]
+level = "INFO"
+max_bytes = 5242880
+backup_count = 5
+capture_screen = false
+
+[profiles.codex-local-v1]
+executable_paths = []
+enabled_categories = ["CAPACITY", "RATE_LIMIT_TRANSIENT", "CONNECTION_TRANSIENT", "STREAM_TRANSIENT", "UPSTREAM_TRANSIENT"]
+min_columns = 80
+max_columns = 240
+min_rows = 20
+max_rows = 100
+

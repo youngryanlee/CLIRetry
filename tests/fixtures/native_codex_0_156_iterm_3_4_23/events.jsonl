@@ -1,0 +1,3 @@
+{"event": "native_local_503", "fixture": "native_error_placeholder_without_style"}
+{"event": "explicit_manual_test_type", "text": "继续", "fixture": "native_typed_continue"}
+{"event": "explicit_manual_test_enter", "text": "\r", "fixture": "native_refailed_placeholder"}

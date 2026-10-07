@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "source": "synthetic",
+  "redacted": true,
+  "iterm_version": null,
+  "sdk_version": null,
+  "codex_sha256": null,
+  "profile_revision": "codex-local-v1.1",
+  "note": "Constructed test data; no live capture or compatibility evidence.",
+  "samples": [
+    {
+      "name": "idle",
+      "frame_hash": "abddd94358a33fa0c0d5fb972a0b3a253353fc60621179d21a367b6205eefc32",
+      "ui_state": "IDLE",
+      "ready": false
+    },
+    {
+      "name": "busy",
+      "frame_hash": "b27424d6d731e43a04ace3bc66094b0c03d8dfe304e4eadea02b87ab1d8c8d1b",
+      "ui_state": "BUSY",
+      "ready": false
+    },
+    {
+      "name": "complete",
+      "frame_hash": "4eb55895fb95e16f80b4189b00ba1f170cb22e43aa855cae360a4183f7a855e9",
+      "ui_state": "IDLE",
+      "ready": false
+    },
+    {
+      "name": "capacity",
+      "frame_hash": "216786811093061ea0001b34915683ae98ff2d1e50aaf6a3e26967225fdbb481",
+      "ui_state": "READY_ERROR",
+      "ready": true
+    },
+    {
+      "name": "quoted",
+      "frame_hash": "edd877cd291842b22c9f993a212efa17c74b3a89b2d0601170e2915b2ad8a947",
+      "ui_state": "IDLE",
+      "ready": false
+    },
+    {
+      "name": "menu",
+      "frame_hash": "438f796d6355e00d374d34d94cb196e6db125b1944b6de335bca95a1df8ed643",
+      "ui_state": "MENU",
+      "ready": false
+    },
+    {
+      "name": "429",
+      "frame_hash": "265074611d51b0e256ab7bbdea1f9346e97e761ec9577d196b34b5091b0dd3fc",
+      "ui_state": "READY_ERROR",
+      "ready": true
+    },
+    {
+      "name": "auth_503",
+      "frame_hash": "9d836f17aa1b428409a836498ea1a3e5e09d064d74ff0ed6c7a0bb7c76451a33",
+      "ui_state": "READY_ERROR",
+      "ready": false
+    },
+    {
+      "name": "tool_quote",
+      "frame_hash": "a3c0a8648ec0fa8bc17d4eb09245ef5fca3c7523949f9257ea85b122bc147813",
+      "ui_state": "IDLE",
+      "ready": false
+    },
+    {
+      "name": "placeholder",
+      "frame_hash": "9cccfe6b1a40c0ee03336bc6c086b5057678f86275f3052aed1a84996478e010",
+      "ui_state": "READY_ERROR",
+      "ready": true
+    },
+    {
+      "name": "missing_style",
+      "frame_hash": "ec68b2428a693547ad3178e1b93366086405995420624153c4b8f3ae5ee53524",
+      "ui_state": "UNKNOWN",
+      "ready": false
+    },
+    {
+      "name": "user_text",
+      "frame_hash": "60c8d68908a4af2676d0b9c87fe231f66e63afab04807846deffaca6ed3f8c95",
+      "ui_state": "READY_ERROR",
+      "ready": false
+    },
+    {
+      "name": "emoji_text",
+      "frame_hash": "4b882c9d36e88aa0d4c329093ab71165ff938455dfb0fc04cb6c141115d0a1f3",
+      "ui_state": "READY_ERROR",
+      "ready": false
+    },
+    {
+      "name": "open_code_fence",
+      "frame_hash": "5b38445c6cdb7121377bbe4d33c284594b0f83328bbac18205fadc777fdb9f75",
+      "ui_state": "UNKNOWN",
+      "ready": false
+    },
+    {
+      "name": "closed_code_fence",
+      "frame_hash": "e5bd78b2b15cc7ff5e2c767b3a01e4e0849216d71454320b8757878280484539",
+      "ui_state": "IDLE",
+      "ready": false
+    },
+    {
+      "name": "wrapped_429",
+      "frame_hash": "b39964d4edffeca5f98783013ccaabc46ea06f3476674da4112df34d8325431b",
+      "ui_state": "READY_ERROR",
+      "ready": true
+    }
+  ]
+}

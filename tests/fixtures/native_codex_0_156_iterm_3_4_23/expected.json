@@ -1,0 +1,20 @@
+[
+  {
+    "ui_state": "UNKNOWN",
+    "composer_state": "UNKNOWN",
+    "blocker": "COMPOSER_UNVERIFIABLE",
+    "typed_verified": false
+  },
+  {
+    "ui_state": "READY_ERROR",
+    "composer_state": "USER_TEXT",
+    "category": "UPSTREAM_TRANSIENT",
+    "typed_verified": true
+  },
+  {
+    "ui_state": "UNKNOWN",
+    "composer_state": "UNKNOWN",
+    "blocker": "COMPOSER_UNVERIFIABLE",
+    "typed_verified": false
+  }
+]

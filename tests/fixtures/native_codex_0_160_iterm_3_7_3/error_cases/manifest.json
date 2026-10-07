@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "source": "captured",
+  "redacted": true,
+  "terminal_program": "native_codex",
+  "codex_version": "0.160.0",
+  "iterm_version": "3.7.3",
+  "sdk_version": "2.25",
+  "codex_sha256": "5383ef71dd1bd8d2f3658c04a219e2cf165c7969aebd0cceced1bc9f0f68877f",
+  "profile_revision": "codex-local-v1.1",
+  "provider_source": "multiple_local_loopback_fixtures",
+  "automatic_supported": false,
+  "input_calls": 0,
+  "samples": [
+    {
+      "name": "rate_limit",
+      "source_artifact": "post-upgrade-native-429-1",
+      "provider_source": "local_simulated_http_429",
+      "provider_status": 429,
+      "frame_hash": "4dbceea553f2db5b318832e6897137da3fa485f685b6db4b16dd896defc503d5"
+    },
+    {
+      "name": "capacity",
+      "source_artifact": "post-upgrade-native-capacity-2",
+      "provider_source": "local_simulated_503",
+      "provider_status": 503,
+      "frame_hash": "aaa1158ae242706c6c266faaa20b7cc19b6f04ee997f9ba3ad88785c15ce418a"
+    },
+    {
+      "name": "upstream_502",
+      "source_artifact": "post-upgrade-native-502-2",
+      "provider_source": "local_simulated_http_502",
+      "provider_status": 502,
+      "frame_hash": "e851cb1397c72b19ef20c675daf908efbb3ab27aa2dda1df370cf4c73d31c8b8"
+    },
+    {
+      "name": "upstream_504",
+      "source_artifact": "post-upgrade-native-504-2",
+      "provider_source": "local_simulated_http_504",
+      "provider_status": 504,
+      "frame_hash": "614943a1275c77b790933ba8e49e678eb065f26acece511901e21e219a784de3"
+    },
+    {
+      "name": "stream_drop",
+      "source_artifact": "post-upgrade-native-stream-drop-1",
+      "provider_source": "local_simulated_stream_drop",
+      "provider_status": null,
+      "frame_hash": "9c427d5ec941067b6969ee52101cce556a5fdb029972e0e9ea9a904753f2a315"
+    },
+    {
+      "name": "auth_priority",
+      "source_artifact": "post-upgrade-native-auth-priority-1",
+      "provider_source": "local_simulated_503",
+      "provider_status": 503,
+      "frame_hash": "9a8d5ad04526c4c44bc6a2c6dfe8df7449eca65cf2ef54b2504539958e287c42"
+    }
+  ],
+  "redaction_method": "iTerm session IDs, run timestamps, and local home paths anonymized; path masks preserve terminal width"
+}

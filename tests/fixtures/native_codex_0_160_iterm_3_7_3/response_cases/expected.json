@@ -1,0 +1,18 @@
+[
+  {
+    "ui_state": "IDLE",
+    "composer_state": "PLACEHOLDER",
+    "normal_completion": true,
+    "category": "",
+    "ready": false,
+    "blockers": []
+  },
+  {
+    "ui_state": "IDLE",
+    "composer_state": "PLACEHOLDER",
+    "normal_completion": true,
+    "category": "",
+    "ready": false,
+    "blockers": []
+  }
+]

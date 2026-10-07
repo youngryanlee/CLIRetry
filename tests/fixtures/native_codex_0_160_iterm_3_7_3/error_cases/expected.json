@@ -1,0 +1,46 @@
+[
+  {
+    "ui_state": "READY_ERROR",
+    "composer_state": "PLACEHOLDER",
+    "category": "RATE_LIMIT_TRANSIENT",
+    "ready": true,
+    "blockers": []
+  },
+  {
+    "ui_state": "READY_ERROR",
+    "composer_state": "PLACEHOLDER",
+    "category": "CAPACITY",
+    "ready": true,
+    "blockers": []
+  },
+  {
+    "ui_state": "READY_ERROR",
+    "composer_state": "PLACEHOLDER",
+    "category": "UPSTREAM_TRANSIENT",
+    "ready": true,
+    "blockers": []
+  },
+  {
+    "ui_state": "READY_ERROR",
+    "composer_state": "PLACEHOLDER",
+    "category": "UPSTREAM_TRANSIENT",
+    "ready": true,
+    "blockers": []
+  },
+  {
+    "ui_state": "READY_ERROR",
+    "composer_state": "PLACEHOLDER",
+    "category": "CONNECTION_TRANSIENT",
+    "ready": true,
+    "blockers": []
+  },
+  {
+    "ui_state": "READY_ERROR",
+    "composer_state": "PLACEHOLDER",
+    "category": "AUTH",
+    "ready": false,
+    "blockers": [
+      "AUTH"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "scenario": "observe_fresh_failure",
+  "mode": "OBSERVE",
+  "jitter": 0,
+  "actions": [
+    "new_failure",
+    "schedule",
+    "would_retry"
+  ],
+  "input_calls": [],
+  "final_state": "OBSERVING"
+}
