@@ -20,7 +20,8 @@
 - 暂存复核发现若干原生回放 fixture 仍标记为 `redacted=false`，帧中含真实 iTerm Session UUID 和本机工作目录。已将 6 组、共 17 帧中的 Session ID、运行时序号/时间和本机 home 路径脱敏；路径使用等宽遮盖，清单标为 `redacted=true` 并重算 frame hash。已有审批 fixture 原本已脱敏。
 - fixture 脱敏后重新验证：全套 `193 passed, 17 warnings`（24.75 秒），Ruff 与 compileall 均通过；弃用警告来自上游 websockets/iTerm2 SDK。
 - 已初始化本地 `main` 分支并添加 SSH 远端。暂存区共 87 个源码、测试、fixture 和文档文件；`.venv/`、构建产物、`*.egg-info/`、`local-artifacts/` 均未纳入。最终扫描确认文档/fixture 无 UUID-shaped 值、fixture 无本机 home 路径、全部 fixture manifest 标记脱敏，且未发现常见 token/私钥模式。
-- `git diff --cached --check` 仅报告原有文件中的尾随空格及文件末尾额外空行；未为发布而重排无关的设计文档/源码格式。下一步创建初始提交并推送 `main`，然后记录远端 commit hash。
+- `git diff --cached --check` 仅报告原有文件中的尾随空格及文件末尾额外空行；未为发布而重排无关的设计文档/源码格式。
+- 初始代码库提交 `c05fab76c15bc1cd33f4aeb1233597456f0799ae`（87 files changed）已推送到 `origin/main`；`git ls-remote` 返回的远端哈希与本地一致。GitHub 仓库已包含完整源码、测试、脱敏 fixture 和工作状态记录。
 
 ## 一句话状态
 
